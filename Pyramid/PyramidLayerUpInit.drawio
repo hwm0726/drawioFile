@@ -1,1 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:50:22.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="2yeb3RJLnDLgmlLHD0Mk" version="15.9.6" type="github"><diagram id="6Ogx0QUZp0cJVPmOTvLr" name="Page-1">dZHBEoIgEIafhrvCmHU2q0snD50Z2YAZdB2k0Xr6dMCMsU4s3/7/LrsQVjTj2fJOXVGAITQRI2FHQmmaZcl0zOTpyX6XeyCtFkG0gkq/IMDgkw8toI+EDtE43cWwxraF2kWMW4tDLLujibt2XMIGVDU3W3rTwqkwBc1XfgEt1dI53R18puGLOEzSKy5w+EKsJKywiM5HzViAmZe37MX7Tn+yn4dZaN0PwxSstadL9EOsfAM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:26:12.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="cR8bDvoPYM176BoMrCpU" version="15.9.6" type="github">
+  <diagram id="6Ogx0QUZp0cJVPmOTvLr" name="Page-1">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f2__ibp48Vanfm8xqD4--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--1" target="f2__ibp48Vanfm8xqD4--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--1" value="&lt;span lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PyramidLayerUpInit&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--2" target="f2__ibp48Vanfm8xqD4--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--2" value="&lt;span lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;ppState,&amp;nbsp; dstRoi, rate,&amp;nbsp; pKernel,&amp;nbsp;&lt;br&gt;kerSize, mode&lt;/font&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--5" target="f2__ibp48Vanfm8xqD4--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--5" value="根据dstRoi、rate和kerSize计算stateSize，然后给pState结构分配空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="200" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--8" target="f2__ibp48Vanfm8xqD4--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--8" value="保存kerSize和rate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="260" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--10" target="f2__ibp48Vanfm8xqD4--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--10" value="计算卷积核pKernel之和kerSum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--45" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--14" target="f2__ibp48Vanfm8xqD4--36">
+          <mxGeometry x="-0.5817" relative="1" as="geometry">
+            <mxPoint x="490" y="395" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--14" value="&lt;span style=&quot;font-size: 12px&quot;&gt;kerSum的绝对值 &amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;浮点&lt;br&gt;数的正最小规约数?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--19" target="f2__ibp48Vanfm8xqD4--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--30" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--19" target="f2__ibp48Vanfm8xqD4--29">
+          <mxGeometry x="-0.2787" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--19" value="&lt;span style=&quot;font-size: 12px&quot;&gt;卷积核为32f类型？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="305" y="450" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--20" target="f2__ibp48Vanfm8xqD4--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--20" value="pCoeff[i] = pKernel[i] / kerSum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298.75" y="515" width="162.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--26" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="375" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="375" y="490" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--29" target="f2__ibp48Vanfm8xqD4--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--29" value="pCoeff[i] =&amp;nbsp; (pKernel[i]≪2)/kerSum * 8192" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="515" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--31" target="f2__ibp48Vanfm8xqD4--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--31" value="将pCoeff[i]进行四舍五入取整操作，取整后算术右移1次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="555" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--33" target="f2__ibp48Vanfm8xqD4--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--33" value="保存pCoeff至state结构中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="600" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="706" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--36" value="pKernel右半部分沿对称轴向右偏移一个单位，保存至卷积系数pCoeff中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="506.25" width="160" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="441" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="675" />
+              <mxPoint x="100" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--41" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;" vertex="1" connectable="0" parent="f2__ibp48Vanfm8xqD4--40">
+          <mxGeometry x="-0.7908" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="f2__ibp48Vanfm8xqD4--38" target="f2__ibp48Vanfm8xqD4--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--38" value="&lt;span style=&quot;font-size: 12px&quot;&gt;遍历pKernel结束？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="305" y="655" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--42" value="&lt;span lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;结束&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2__ibp48Vanfm8xqD4--48" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="355" y="695" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
