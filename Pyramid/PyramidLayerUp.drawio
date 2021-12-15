@@ -1,1 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T12:18:03.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" version="15.9.6" etag="yzwwwIYXnFJwuwbPeuGT" type="github"><diagram id="AOR__SFBQDeEKMPPwu0J">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T12:45:23.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="fZuceXIKiWudnRUG5UjI" version="15.9.6" type="github">
+  <diagram id="AOR__SFBQDeEKMPPwu0J" name="第 1 页">
+    <mxGraphModel dx="1550" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-3" target="G0LoWcfhirMpQ-tLHPgR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-3" value="&lt;span lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;PyramidLayerUp&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-5" target="G0LoWcfhirMpQ-tLHPgR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-5" value="pSrc, srcStep, srcRoiSize.&lt;br&gt;pDst, dstStep, dstRoiSize, pState&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="140" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-7" target="G0LoWcfhirMpQ-tLHPgR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-7" value="以源图像为基础，对其进行镜像边界操作。扩充之后的图像pMirror存储至state结构中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="190" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-9" target="G0LoWcfhirMpQ-tLHPgR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-9" value="以pMirrorEnd（图像pMirror的结束处地址）为起始地址，长度为Max(dstRoiSize.width, dstRoiSize.height)+kerSize-1的浮点数区域置为0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-34" target="G0LoWcfhirMpQ-tLHPgR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-34" value="计算coeffSum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331.25" y="320" width="97.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-36" target="G0LoWcfhirMpQ-tLHPgR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-36" value="对coeffSum求倒数，结果记为coeffSumRec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290.31" y="370" width="179.38" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-38" target="G0LoWcfhirMpQ-tLHPgR-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-38" value="遍历镜像后的图像pMirror, 进行横向卷积" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="430" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-43" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-40">
+          <mxGeometry x="-0.8723" relative="1" as="geometry">
+            <mxPoint x="380" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="520" />
+              <mxPoint x="270" y="410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-40" target="G0LoWcfhirMpQ-tLHPgR-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-40" value="&lt;span style=&quot;font-size: 12px&quot;&gt;遍历pMirror结束？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="304.38" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-44" value="遍历镜像后的图像pMirror, 进行横向卷积，卷积后的结果pConv存放至state结构中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289.69" y="430" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-51" target="G0LoWcfhirMpQ-tLHPgR-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-51" value="遍历横向卷积后的图像pConv, 进行竖向卷积，最终生成目标图像结果，保存至pDst中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290.31" y="570" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-55" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-52">
+          <mxGeometry x="-0.8801" relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="660" />
+              <mxPoint x="270" y="550" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G0LoWcfhirMpQ-tLHPgR-52" target="G0LoWcfhirMpQ-tLHPgR-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-52" value="&lt;span style=&quot;font-size: 12px&quot;&gt;遍历&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;pConv&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;结束？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="305.31" y="640" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-56" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="540" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-57" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="680" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0LoWcfhirMpQ-tLHPgR-58" value="&lt;span lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;结束&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341.31" y="700" width="78" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
